@@ -2,7 +2,7 @@ import os
 
 import re
 from setuptools import setup
-from setuptools.pkg_resources import parse_version
+from setuptools.extern.packaging.version import parse as parse_version
 import subprocess
 import shutil
 import sys
